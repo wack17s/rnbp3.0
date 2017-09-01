@@ -1,0 +1,6 @@
+{
+    "extends": "webbylab",
+    "rules": {
+        "react/jsx-handler-names": 0
+    }
+}

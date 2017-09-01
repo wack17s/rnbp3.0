@@ -1,0 +1,8 @@
+image: node:6.9
+
+lint:
+  stage: test
+  script:
+    - npm install
+    - cp shared/etc/config.js.sample shared/etc/config.js
+    - npm run lint
