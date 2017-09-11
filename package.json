@@ -5,9 +5,10 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-	    "lint": "eslint shared App.js"
+		"lint": "eslint shared App.js"
 	},
 	"dependencies": {
+		"prop-types": "^15.5.10",
 		"react": "16.0.0-alpha.12",
 		"react-native": "0.47.2",
 		"react-navigation": "1.0.0-beta.11",
