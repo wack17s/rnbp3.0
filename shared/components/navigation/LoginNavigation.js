@@ -2,13 +2,20 @@ import React, { PureComponent } from 'react';
 import { View }                 from 'react-native';
 import { StackNavigator }       from 'react-navigation';
 
-import MainPage from '../loginPages/MainPage.js';
-import LoginPage from '../loginPages/LoginPage.js';
-import RegisterPage from '../loginPages/RegisterPage.js';
+import MainPage     from '../loginPages/MainPage.js';
+
+import LoginPage    from '../../containers/loginPages/LoginPageContainer.js';
+import RegisterPage from '../../containers/loginPages/RegisterPageContainer.js';
 
 const LoginNavigator =  StackNavigator({
     Index : {
         screen : MainPage
+    },
+    Login : {
+        screen : LoginPage
+    },
+    Register : {
+        screen : RegisterPage
     }
 }, {
     initialRouteName : 'Index',

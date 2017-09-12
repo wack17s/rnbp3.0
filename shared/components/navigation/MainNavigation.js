@@ -2,11 +2,11 @@ import React, { PureComponent } from 'react';
 import { View }                 from 'react-native';
 import { StackNavigator }       from 'react-navigation';
 
-import SomePage from '../mainPages/SomePage.js';
+import Dashboard from '../mainPages/Dashboard.js';
 
 const MainNavigator =  StackNavigator({
     Index : {
-        screen : SomePage
+        screen : Dashboard
     }
 }, {
     initialRouteName : 'Index',
